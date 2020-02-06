@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import './App.css';
+import CalorieItems from './components/calorie-items/CalorieItems';
 
 const App = () => {
   useEffect(() => {
@@ -11,10 +12,11 @@ const App = () => {
   });
 
   return (
-    <div className="App">
+    <div className='App'>
       <Navbar />
+      <CalorieItems />
     </div>
   );
-}
+};
 
 export default App;
