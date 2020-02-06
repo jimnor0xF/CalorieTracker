@@ -5,19 +5,22 @@ const CalorieItems = () => {
     <ul className='collapsible'>
       <li>
         <div className='collapsible-header'>
-          <i className='material-icons'>filter_drama</i>
-          First
+          <i className='material-icons'>expand_more</i>
+          Banana
           <span className='new badge' data-badge-caption=''>
-            100
+            105
           </span>
+          <i className='material-icons grey-text'>delete</i>
         </div>
         <div className='collapsible-body'>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <span className='black-text'>Calories: 105</span> <br />
+          <span className='black-text'>Fat: 0.39g</span>
+
         </div>
       </li>
       <li>
         <div className='collapsible-header'>
-          <i className='material-icons'>place</i>
+          <i className='material-icons'>expand_more</i>
           Second
           <span className='badge'>1</span>
         </div>

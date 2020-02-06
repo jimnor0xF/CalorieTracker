@@ -13,7 +13,7 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-    )
+    );
 }
 
 Navbar.propTypes = {
